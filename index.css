@@ -1,0 +1,127 @@
+.navbar
+{
+    
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a 
+{
+    color: rgb(66, 51, 51);
+}
+
+.navbar .logo
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav-links 
+{
+    display: flex ;
+    align-items: center;
+}
+   
+
+.navbar .nav-links ul 
+{
+    display: flex ;
+}
+   
+
+
+.navbar .nav-links ul li
+{
+    margin: 0 30px;
+}
+
+.navbar .nav-links ul li.active a
+{
+    color: red;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 970px){
+    .nav-links{ 
+        display: none;
+    }
+}
+   
+ul {
+    list-style-type: none;
+  }
+
+
+  a {
+    text-decoration:none;
+    }
+   
+p{
+    margin: 20px;
+}
+
+h1{
+    margin: 20px;
+}
+
+.Acceuil1
+{
+    color: red;
+}
+
+p{
+    font-size: 24px;
+    color: rgb(27, 26, 26);
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.Acceder{
+    color: black;
+}
+
+.JSP1-Inc{ 
+    color: red;
+}
+.image-jsp1{
+
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/images\ fonds.jfif);
+    background-size: cover;
+}
+
+.lspcc-acc{
+    width : 110px;
+    height : 150px;
+}
+
+img {
+    
+    }
+
+.lspcc-acc{
+    border: 1px solid black; padding: 10px; 
+    margin: 30px;
+    margin-left: 30px;
+    margin-right: 90px;
+    scroll-margin-top: ;
+}
+
+.imglspcc{
+    height: 150px;
+    weight: 150px
+}
+
+h2
+{
+    color: red;
+}
